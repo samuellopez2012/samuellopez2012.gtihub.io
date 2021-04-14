@@ -75,7 +75,8 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
+		width: extend-to-zoom;
+    zoom: 1.0;
 	}
 
 	body {
