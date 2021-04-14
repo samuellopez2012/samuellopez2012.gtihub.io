@@ -3236,7 +3236,7 @@ input, select, textarea {
 			height: 100%;
 			background-color: #212931;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,													Auto 50%;
+			background-size: auto 100%,								auto 100%,													Auto 100%;
 			background-position: center,								center,														top center;
 			background-repeat: no-repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
@@ -3277,7 +3277,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto 100%,								auto 100%,														Auto 50%;
+				background-size: auto 100%,								auto 100%,														Auto 100%;
 			}
 
 		}
